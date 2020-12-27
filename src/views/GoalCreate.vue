@@ -79,6 +79,7 @@
             </label>
             <DatePicker  
               @focus="onInputClick('t')"
+              valueType="format"
               range class="w-full shadow" v-model="timeBound"/>
           </div>
 
